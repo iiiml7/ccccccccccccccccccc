@@ -47,4 +47,9 @@ client.on('ready', () => {
 });
 
 
+client.user.setActivity("i Love You ", {
+  type: "STREAMING",
+  url: "https://www.twitch.tv/iiiML7"
+});
+
 client.login(config.token);
