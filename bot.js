@@ -47,9 +47,15 @@ client.on('ready', () => {
 });
 
 
-client.user.setActivity("i Love You ", {
-  type: "STREAMING",
-  url: "https://www.twitch.tv/iiiML7"
+bot.on('ready', () => {
+    bot.user.setStatus('available')
+    bot.user.setPresence({
+        game: {
+            name: 'I Love You JOJO',
+            type: "STREAMING",
+            url: "https://www.twitch.tv/iiiML7"
+        }
+    });
 });
 
 client.login(config.token);
