@@ -57,5 +57,4 @@ client.on('ready', () => {
         }
     });
 });
-
-client.login(config.token);
+const bot = new Telegraf(process.env.BOT_TOKEN)
