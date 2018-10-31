@@ -1,5 +1,5 @@
 {
-	"BOT_TOKEN": "process.env.BOT_TOKEN",
+	"BOT_TOKEN": 'process.env.BOT_TOKEN',
 	
 	"servers": [
 		"333278908357017612",
